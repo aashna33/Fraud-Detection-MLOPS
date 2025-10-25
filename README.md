@@ -1,9 +1,11 @@
 # Fraud-Detection-MLOPS
 End-to-End IEEE-CIS Credit Card Fraud Detection Pipeline using LightGBM, MLflow, FastAPI, and Docker.
 
+
 🚀 Overview
 
 This project implements a complete Machine Learning Operations (MLOps) pipeline for detecting fraudulent online transactions using the IEEE-CIS Fraud Detection dataset.
+
 
 It covers every stage from data preprocessing → model training → experiment tracking → deployment.
 
