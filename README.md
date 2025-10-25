@@ -7,25 +7,6 @@ This project implements a complete Machine Learning Operations (MLOps) pipeline 
 
 It covers every stage from data preprocessing → model training → experiment tracking → deployment.
 
-🧩 Project Structure
-📦 mlops_project/
-│
-├── src/
-│   ├── preprocess.py         # Loads and preprocesses the dataset
-│   ├── train.py              # Trains RandomForest, XGBoost, and LightGBM + logs to MLflow
-│   ├── visualize.py          # Plots ROC Curve
-│   ├── app.py                # FastAPI app for model serving
-│
-├── models/
-│   └── lightgbm_model.txt    # Saved trained LightGBM model
-│
-├── data/
-│   ├── train_transaction.csv
-│   ├── train_identity.csv
-│
-├── Dockerfile                # For containerizing the FastAPI app
-├── requirements.txt          # All dependencies
-└── README.md
 
 🧠 Key Features
 
